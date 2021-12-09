@@ -1,0 +1,8 @@
+a =[1, 3, 5, 8, 9, 2, 6, 7, 6, 8, ]
+count = 0
+i = 0
+while i < len(a)-1:
+    n = a[i]
+    i = i+n
+    count+=1
+print(count)
